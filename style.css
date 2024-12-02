@@ -1,0 +1,22 @@
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .elementor-widget-image-gallery > div > div {
+    width: 240px !important;
+    height: 160px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .elementor-widget-image-gallery > div > div {
+    width: 180px !important;
+    height: 120px !important;
+  }
+}
